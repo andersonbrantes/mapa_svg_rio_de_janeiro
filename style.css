@@ -1,0 +1,78 @@
+
+
+/*
+
+#mesorregioes
+.mesorregioes
+
+  #noroeste_fluminense
+  #noroeste_fluminense
+  #norte_fluminense
+  #centro_fluminense
+  #metropolitana_do_rio_de_janeiro
+  #sul_fluminense
+  #baixadas
+
+*/
+
+#Minimapa {
+  display: none;      
+}
+
+#Contorno {
+  display: none;      
+}
+
+svg #Municipios path {
+    fill:none;
+    stroke:black;
+    pointer-events:all;
+}
+
+svg #Municipios path:hover {
+    fill:red;
+    stroke:blue;
+}
+
+svg #Municipios path.medio-paraiba:hover {
+    fill:yellow;
+    stroke:blue;
+}
+
+svg #Municipios path#campos_dos_goytacazes:hover {
+    fill:green;
+    stroke:blue;
+}    
+
+svg #noroeste_fluminense {
+  fill: #1257aa;
+}
+
+svg #norte_fluminense {
+  fill: #ff7b00;
+}
+
+svg #centro_fluminense {
+  fill: #00923F;
+}
+
+svg #metropolitana_do_rio_de_janeiro {
+  fill: #F8C300;
+}
+
+svg #sul_fluminense {
+  fill: #E47A74;
+}
+
+svg #baixadas {
+  fill: #222222;
+}
+
+path.mesorregioes {
+  opacity: 0.1;
+  pointer-events:all;
+}
+
+path.mesorregioes:hover {
+  opacity: 0.7;
+}
