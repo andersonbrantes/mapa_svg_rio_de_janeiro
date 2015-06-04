@@ -23,7 +23,7 @@
   display: none;      
 }
 
-svg #Municipios path {
+/*svg #Municipios path {
     fill:none;
     stroke:black;
     pointer-events:all;
@@ -32,7 +32,7 @@ svg #Municipios path {
 svg #Municipios path:hover {
     fill:red;
     stroke:blue;
-}
+}*/
 
 svg #Municipios path.medio-paraiba:hover {
     fill:yellow;
@@ -77,6 +77,21 @@ path.mesorregioes:hover {
   opacity: 0.7;
 }
 
+/* desabilita/habilita mesorregiões */
+path.mesorregioes {
+  display: none;
+}
+
+
+
+path.cidades {
+  pointer-events: all; 
+  fill: none;
+}
+
+path.cidades:hover {
+  fill: #1257aa;
+}
 
 .tooltip{
   margin:8px;

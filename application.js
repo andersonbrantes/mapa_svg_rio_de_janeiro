@@ -21,7 +21,7 @@ $(document).ready(function(){
 		$('div.tooltip').remove();
 	};
 
-	$(".mesorregioes").bind({
+	$(".cidades").on({
 		mousemove : changeTooltipPosition,
 		mouseenter : showTooltip,
 		mouseleave: hideTooltip
