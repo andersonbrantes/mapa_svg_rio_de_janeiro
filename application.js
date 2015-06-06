@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 	var showTooltip = function(event) {
 	   $('div.tooltip').remove();
-	   var nome = $(this).attr("id");
+	   var nome = $(this).attr("data-name");
 	   $('<div class="tooltip">'+nome+'</div>')
 	     .appendTo('body');
 	   changeTooltipPosition(event);
