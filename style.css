@@ -34,7 +34,7 @@ svg #Municipios path:hover {
     stroke:blue;
 }*/
 
-svg #Municipios path.medio-paraiba:hover {
+/*svg #Municipios path.medio-paraiba:hover {
     fill:yellow;
     stroke:blue;
 }
@@ -42,7 +42,7 @@ svg #Municipios path.medio-paraiba:hover {
 svg #Municipios path#campos_dos_goytacazes:hover {
     fill:green;
     stroke:blue;
-}    
+}*/    
 
 svg #noroeste_fluminense {
   fill: #1257aa;
